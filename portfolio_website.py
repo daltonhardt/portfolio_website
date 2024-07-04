@@ -25,7 +25,7 @@ user_question = st.text_input(label=' ', placeholder='write it here...')
 if st.button("Ask", use_container_width=200):
     prompt = persona + "Here is the question that the user asked" + user_question
     response = model.generate_content(prompt)
-    print(response.text)
+    st.write(response.text)
 
 
 col3, col4, col5 = st.columns(3)
