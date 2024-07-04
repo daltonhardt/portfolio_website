@@ -17,7 +17,7 @@ base_directory = "/Users/dalton/Desktop/workspace/code/PycharmProjects/AiZero2He
 col1, col2 = st.columns(2)
 st.title('Hello :wave:  I am Dalton Hardt')
 st.sidebar.title('This is my portfolio')
-st.sidebar.image(f'{base_directory}/images/Foto-Dalton.jpg')
+st.sidebar.image('./images/Foto-Dalton.jpg')
 st.sidebar.markdown('I help companies implementing Internet of Things (IoT) and Computer Vision solutions.')
 
 st.header("4F/PSL's AI Bot")
