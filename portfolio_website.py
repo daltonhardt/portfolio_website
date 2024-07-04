@@ -52,7 +52,7 @@ st.image("./images/setup.jpg")
 st.title(" ")
 st.title("Our Skills")
 st.slider("Programming", 0, 100, 70)
-st.slider("Engineering Process", 0, 100, 80)
+st.slider("Process Engineering", 0, 100, 80)
 
 st.title("Gallery")
 col1, col2 = st.columns(2)
