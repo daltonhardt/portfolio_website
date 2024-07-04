@@ -21,8 +21,8 @@ st.sidebar.title('This is my portfolio')
 st.sidebar.image('./images/Foto-Dalton.jpg')
 st.sidebar.markdown('We help companies implementing Internet of Things (IoT) and Computer Vision solutions.')
 
-st.header("Dalton's AI Bot")
-st.write("Ask anything about us:")
+#st.header("Dalton's AI Bot")
+st.subheader("Ask anything about us:")
 user_question = st.text_input(label=' ', placeholder='write it here...')
 if st.button("Ask", use_container_width=200):
     prompt = persona + "Here is the question that the user asked" + user_question
