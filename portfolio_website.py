@@ -19,7 +19,7 @@ col1, col2 = st.columns(2)
 st.title('Hello :wave:  I am Dalton Hardt')
 st.sidebar.title('This is my portfolio')
 st.sidebar.image('./images/Foto-Dalton.jpg')
-st.sidebar.markdown('I help companies implementing Internet of Things (IoT) and Computer Vision solutions.')
+st.sidebar.markdown('We help companies implementing Internet of Things (IoT) and Computer Vision solutions.')
 
 st.header("Dalton's AI Bot")
 st.write("Ask anything about us:")
