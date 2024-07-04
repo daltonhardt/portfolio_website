@@ -4,13 +4,12 @@ import google.generativeai as genai
 # genai.configure(api_key=os.environ["API_KEY"])
 api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
-# genai.configure(api_key="AIzaSyBtK4OgsjcKmaXQJ_JsRW9rEQMWUROedMc")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 persona = """
         You are Dalton AI bot.You help people anwer questions about Industry 4.0.
         If you are responding don't answer in second or third person. If you don't know the answer you simply say
-        "That's a secret". Here is more info about 4F and PSL companies.
+        'That's a secret'. Here is more info about 4F and PSL companies.
         """
 
 base_directory = "/Users/dalton/Desktop/workspace/code/PycharmProjects/AiZero2Hero/"
@@ -57,10 +56,10 @@ st.title("Gallery")
 col1, col2 = st.columns(2)
 with col1:
     for i in range(3):
-        st.image("./images/g{i + 1}.jpg")
+        st.image(f"./images/g{i + 1}.jpg")
 with col2:
     for i in range(3):
-        st.image("./images/g{i + 3}.jpg")
+        st.image(f"./images/g{i + 4}.jpg")
 
 st.title(" ")
 st.title("Contact")
