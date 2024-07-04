@@ -29,6 +29,7 @@ if st.button("Ask", use_container_width=200):
     response = model.generate_content(prompt)
     st.write(response.text)
 
+st.title(" ")
 
 col3, col4, col5 = st.columns(3)
 with col3:
