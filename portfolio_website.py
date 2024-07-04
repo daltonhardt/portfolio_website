@@ -21,7 +21,7 @@ st.sidebar.title('This is my portfolio')
 st.sidebar.image('./images/Foto-Dalton.jpg')
 st.sidebar.markdown('I help companies implementing Internet of Things (IoT) and Computer Vision solutions.')
 
-st.header("4F/PSL's AI Bot")
+st.header("Dalton's AI Bot")
 st.write("Ask anything about us:")
 user_question = st.text_input(label=' ', placeholder='write it here...')
 if st.button("Ask", use_container_width=200):
