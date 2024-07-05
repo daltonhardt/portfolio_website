@@ -21,7 +21,6 @@ persona = """
         'That's a secret'. Here is more info about Dalton and his company 4F/PSL. Dalton has a partner, Mr. Paulo Lopes who also has
         a large experience in the Industry. Some of the customers can be found in the website but I can also list here:
         Embraco, Electrolux, Porto de Itapoá, WEG, Malwee and some others.
-        In order to answer the questions you can also get information from well-known websites about IoT, programming and micro-processors.
         Dalton's LinkedIn: www.linkedin.com/in/dalton-hardt
         Dalton's Github: https://github.com/daltonhardt
         Dalton's Website: https://4f-psl-eng.webflow.io/
